@@ -190,7 +190,7 @@ a {
 
 .w-o-navigation-link:hover,
 .w-o-navigatioт-link:focus {
-  color: rgba(255, 145, 0, 1);
+  color: rgba(0, 110, 4, 1);
 }
 
 .w-o-header.is-open {
@@ -330,11 +330,13 @@ a {
   color: rgba(255, 255, 255, 1);
   text-align: center;
   text-decoration: none;
+  transition: transform 0.3s ease-in-out;
 }
 
 .w-o-home-link:hover {
   transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
+
+  background: rgba(196, 112, 0, 1);
 }
 
 @media screen and (min-width: 1200px) {
@@ -864,6 +866,7 @@ a {
 }
 .w-o-features-button:hover {
   transform: scale(1.1);
+  background: rgba(196, 112, 0, 1);
 }
 @media screen and (min-width: 1200px) {
   .w-o-features {
